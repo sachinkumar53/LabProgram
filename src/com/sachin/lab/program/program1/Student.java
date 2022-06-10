@@ -23,7 +23,7 @@ public class Student {
         int n = scanner.nextInt();
         Student[] students = new Student[n];
         for (int i = 0; i < n; i++) {
-            System.out.printf("Enter details of Student %d:%n", i + 1);
+            System.out.printf("Enter details of Student %d:", i + 1);
             String usn = scanner.next();
             String name = scanner.next();
             String branch = scanner.next();
